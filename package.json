@@ -1,0 +1,17 @@
+{
+  "name": "initelectrondemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "chcp 65001 && nodemon --watch main.js --exec npm run build",
+    "build": "electron . "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron/remote": "^2.0.9",
+    "electron": "^24.3.0"
+  }
+}
